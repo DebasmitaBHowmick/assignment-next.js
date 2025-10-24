@@ -61,7 +61,7 @@ const GalleryWidget = () => {
             <div className="absolute top-3 left-3 bg-[#3a3a3a] w-7 h-7 rounded-full flex items-center justify-center shadow-md hover:scale-110 hover:shadow-lg transition-all duration-300 ease-out">
     <i className="bi bi-question text-gray-400 text-sm"></i>
   </div>
-  <div className="absolute top-1 mx-1 left-1 bg-[#3a3a3a] w-7 h-7 rounded-full flex items-center justify-center shadow-md hover:scale-110 hover:shadow-lg transition-all duration-300 ease-out my-30">
+  <div className="absolute top-1 my-2 left-1 bg-[#3a3a3a] w-7 h-7 rounded-full flex items-center justify-center shadow-md hover:scale-110 hover:shadow-lg transition-all duration-300 ease-out my-30">
     <i className="bi bi-grid text-gray-400 text-sm"></i>
   </div>
             <div className="flex justify-between items-center mb-6">
@@ -141,7 +141,6 @@ const GalleryWidget = () => {
                     );
                 })}
             </div>
-            <div className="absolute bottom-0 left-0 right-0 h-[2] bg-[#3a3a3a] opacity-50"></div>
         </div>
     );
 }
