@@ -7,7 +7,7 @@ const initialImages = [
     "https://images.unsplash.com/photo-1761165308046-174a56e73525?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170", 
     "https://images.unsplash.com/photo-1760605193118-a3536e1eea61?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=600", 
     "https://images.unsplash.com/photo-1760605193118-a3536e1eea61?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=600", 
-  
+    "https://images.unsplash.com/photo-1761165308046-174a56e73525?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
 ];
 
 const GalleryWidget = () => {
@@ -117,14 +117,12 @@ const GalleryWidget = () => {
                     return (
                         <div 
                             key={idx} 
-                            className={`flex-shrink-0 w-40 h-40 rounded-xl overflow-hidden cursor-pointer
-                                transition-all duration-500 ease-out perspective-1000 transform-gpu
-
-                                hover:scale-[1.1] 
+                            className="flex-shrink-0 w-40 h-40 rounded-xl overflow-hidden cursor-pointer
+                                transition-all duration-500 ease-out perspective-1000 transform-gpu hover:scale-[1.1] 
                                 hover:rotate-y-[7] 
                                 hover:rotate-x-[7] 
                                 hover:shadow-3xl 
-                                hover:shadow-[0_10px_20px_rgba(0,0,0,0.8)`}>
+                                hover:shadow-[0_10px_20px_rgba(0,0,0,0.8)">
                           
                             {/* eslint-disable-next-line @next/next/no-img-element */}
                             <div className="w-full h-full perspective-1000 transition-all duration-300 ease-out">

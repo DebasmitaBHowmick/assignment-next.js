@@ -4,9 +4,9 @@ import { useState } from "react";
 
 const HomeWidget = () => {
   const content = {
-    about: "About Me content goes here...",
-    experiences: "Experience content goes here...",
-    recomended: "Recommended content goes here...",
+    about: "Hello! I’m Dave, your sales rep here from Salesforce. I’ve been working at this awesome company for 3 years now.I was born and raised in Albany, NY & have been living in Santa Carla for the past 10 years with my wife Tiffany and our twin daughters – Emma and Ella. Both of them are just starting school, so my calendar is usually blocked between 9–10 AM.",
+    experiences: "I have over 10 years of experience in sales and marketing, helping clients grow their customer base through CRM solutions. I enjoy mentoring new reps and exploring AI-powered analytics.",
+    recomended: "Dave is a reliable and proactive communicator who consistently delivers results. His ability to understand client needs and translate them into scalable solutions is impressive.",
   };
 
   const tabs = [
